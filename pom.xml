@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.dice-research</groupId>
+	<artifactId>LsqSpinToArff</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>LSQ SPIN to ARFF</name>
+	<repositories>
+		<repository>
+			<id>org.topbraid</id>
+			<url>http://topquadrant.com/repository/spin</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+
+		<!-- Commented, as Jena ARQ should be enough -->
+		<!-- https://mvnrepository.com/artifact/org.topbraid/spin -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.topbraid</groupId> -->
+		<!-- <artifactId>spin</artifactId> -->
+		<!-- <version>2.0.0</version> -->
+		<!-- </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-arq -->
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-arq</artifactId>
+			<version>3.10.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka-stable</artifactId>
+			<version>3.8.3</version>
+		</dependency>
+
+	</dependencies>
+</project>
