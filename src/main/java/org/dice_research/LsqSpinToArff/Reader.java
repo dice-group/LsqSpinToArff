@@ -1,0 +1,67 @@
+package org.dice_research.LsqSpinToArff;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+
+/**
+ * Reads a LSQ output file in turtle/TTL format.
+ * 
+ * @author Adrian Wilke
+ */
+public abstract class Reader {
+
+	/**
+	 * Extracts SPARQL query information (URI, query text, features).
+	 * 
+	 * @param ttlFileUrl URL of a turtle file
+	 * 
+	 * @return Map queryUri to query-object
+	 */
+	public static Map<String, Query> extract(String ttlFileUrl) {
+
+		// Import file into model
+		Model model = ModelFactory.createDefaultModel();
+		model.read(ttlFileUrl, "TURTLE");
+
+		// Execute query
+		String sparqlQuery = "SELECT ?q ?t ?f WHERE { "
+
+				+ "?q a <http://lsq.aksw.org/vocab#Query> . "
+
+				+ "?q <http://lsq.aksw.org/vocab#text> ?t . "
+
+				+ "?q <http://lsq.aksw.org/vocab#hasStructuralFeatures> ?sf . "
+
+				+ "?sf <http://lsq.aksw.org/vocab#usesFeature> ?f}";
+		QueryExecution queryExecution = QueryExecutionFactory.create(sparqlQuery, model);
+		ResultSet resultSet = queryExecution.execSelect();
+
+		// Extract results to map
+		Query query;
+		Map<String, Query> queries = new HashMap<String, Query>();
+		while (resultSet.hasNext()) {
+			QuerySolution querySolution = resultSet.next();
+
+			// Get query in map
+			String queryUri = querySolution.get("q").toString();
+			if (queries.containsKey(queryUri)) {
+				query = queries.get(queryUri);
+			} else {
+				query = new Query(queryUri);
+				queries.put(queryUri, query);
+			}
+
+			query.text = querySolution.get("t").toString();
+			query.features.add(querySolution.get("f").toString());
+		}
+
+		return queries;
+	}
+}
