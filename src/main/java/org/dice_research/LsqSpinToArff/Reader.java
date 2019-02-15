@@ -1,5 +1,6 @@
 package org.dice_research.LsqSpinToArff;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,30 +18,33 @@ import org.apache.jena.rdf.model.ModelFactory;
  */
 public abstract class Reader {
 
+	public final static String SPARQL_QUERY = "SELECT ?q ?t ?f WHERE { "
+
+			+ "?q a <http://lsq.aksw.org/vocab#Query> . "
+
+			+ "?q <http://lsq.aksw.org/vocab#text> ?t . "
+
+			+ "?q <http://lsq.aksw.org/vocab#hasStructuralFeatures> ?sf . "
+
+			+ "?sf <http://lsq.aksw.org/vocab#usesFeature> ?f"
+
+			+ "}";
+
 	/**
 	 * Extracts SPARQL query information (URI, query text, features).
 	 * 
 	 * @param ttlFileUrl URL of a turtle file
 	 * 
-	 * @return Map queryUri to query-object
+	 * @return Query-objects
 	 */
-	public static Map<String, Query> extract(String ttlFileUrl) {
+	public static Collection<Query> extract(String ttlFileUrl) {
 
 		// Import file into model
 		Model model = ModelFactory.createDefaultModel();
 		model.read(ttlFileUrl, "TURTLE");
 
 		// Execute query
-		String sparqlQuery = "SELECT ?q ?t ?f WHERE { "
-
-				+ "?q a <http://lsq.aksw.org/vocab#Query> . "
-
-				+ "?q <http://lsq.aksw.org/vocab#text> ?t . "
-
-				+ "?q <http://lsq.aksw.org/vocab#hasStructuralFeatures> ?sf . "
-
-				+ "?sf <http://lsq.aksw.org/vocab#usesFeature> ?f}";
-		QueryExecution queryExecution = QueryExecutionFactory.create(sparqlQuery, model);
+		QueryExecution queryExecution = QueryExecutionFactory.create(SPARQL_QUERY, model);
 		ResultSet resultSet = queryExecution.execSelect();
 
 		// Extract results to map
@@ -62,6 +66,6 @@ public abstract class Reader {
 			query.features.add(querySolution.get("f").toString());
 		}
 
-		return queries;
+		return queries.values();
 	}
 }

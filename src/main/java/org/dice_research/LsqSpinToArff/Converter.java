@@ -19,26 +19,42 @@ import weka.core.Instances;
  */
 public abstract class Converter {
 
+	public final static String ARFF_RELATION_NAME = "Dataset";
+	public final static String ARFF_ATTRIBUTE_CLASS = "queryUri";
+	public final static String ARFF_ATTRIBUTE_POSITIVE_SET = "positive";
+
+	/**
+	 * Adds feature {@link Converter#ARFF_ATTRIBUTE_POSITIVE_SET} to all
+	 * query-objects.
+	 * 
+	 * @param queries Collection of query-objects
+	 */
+	public static void setPositive(Collection<Query> queries) {
+		for (Query query : queries) {
+			query.features.add(ARFF_ATTRIBUTE_POSITIVE_SET);
+		}
+	}
+
 	/**
 	 * Creates ARFF data.
 	 * 
-	 * @param queries  Queries
-	 * @param features List of features
+	 * @param queries     Queries
+	 * @param allFeatures List of features
 	 * @return ARFF data
 	 */
-	public static Instances createArff(Collection<Query> queries, List<String> features) {
+	public static Instances createArff(Collection<Query> queries, List<String> allFeatures) {
 
 		// Create ARFF attributes
-		Map<String, Attribute> featuresToAttributes = new HashMap<String, Attribute>(features.size());
-		for (String feature : features) {
+		Map<String, Attribute> featuresToAttributes = new HashMap<String, Attribute>(allFeatures.size());
+		for (String feature : allFeatures) {
 			featuresToAttributes.put(feature, new Attribute(feature));
 		}
 		ArrayList<Attribute> attributes = new ArrayList<Attribute>(featuresToAttributes.values());
-		Attribute classAttibute = new Attribute("queryUri", true);
+		Attribute classAttibute = new Attribute(ARFF_ATTRIBUTE_CLASS, true);
 		attributes.add(classAttibute);
 
 		// Create list to return
-		Instances instances = new Instances("Attributes", attributes, queries.size());
+		Instances instances = new Instances(ARFF_ATTRIBUTE_CLASS, attributes, queries.size());
 		instances.setClass(classAttibute);
 
 		// Add data
