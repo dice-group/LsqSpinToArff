@@ -1,405 +1,1466 @@
 <http://lsq.aksw.org/res/mydata>
-        <http://www.w3.org/ns/prov#startedAtTime>  "2019-02-15T14:00:17.809Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnbc02ecf1>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn768771a9> ;
-        <http://spinrdf.org/sp#arg2>  "*" ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn4d177ae7> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnc769d641> .
+        <http://www.w3.org/ns/prov#startedAtTime>  "2019-02-15T14:36:12.749Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn3c1842c1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bndfc89dac> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn067f7d97> .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8>
-        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn2675f5d1> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
-        <http://spinrdf.org/sp#where>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bncaaf65b8>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn3adf90ab> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnc7266538> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn8555245c>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bncaaf65b8> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#and> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn65c9f4b7> .
-
-<http://lsq.aksw.org/res/q-fbd024d8-var-itemlabelWHERE>
-        <http://spinrdf.org/sp#varName>  "itemlabelWHERE" .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-hasValue>
-        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> ;
-        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Path> ;
-        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnd1b5b0f6>
-        <http://spinrdf.org/sp#arg2>  "en" ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn09bb9e24> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn223a64e3> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn3c1842c1>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bndfc89dac> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn067f7d97> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bndfc89dac>
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bndfc89dac>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnfdad23fa> .
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnfdad23fa> .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnf42a0583>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-fbd024d8-var-property> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnb9dfa7ca> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnff76b387>
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-0f5806b2-var-property> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Fenton%2C_Michigan> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Fenton%2C_Michigan> ?property ?hasValue ." .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-property>
-        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-fbd024d8-var-property> ;
-        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Path> ;
-        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
-
-<http://lsq.aksw.org/res/q-fbd024d8-var-label>
-        <http://spinrdf.org/sp#varName>  "label" .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4>
-        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-http-www.w3.org-2000-01-rdf-schema-label> ;
-        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-property> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bna5177f90> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn5e36f5c8> ;
-        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-hasValue> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn3adf90ab>
-        <http://spinrdf.org/sp#arg2>  "en" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnce529e85> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn09bb9e24>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-itemlabel> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnfdad23fa>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
-        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnd22b44c5> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn7e0e1fc0-jv-http-www.w3.org-2000-01-rdf-schema-label>
-        <http://lsq.aksw.org/vocab#proxyFor>  <http://www.w3.org/2000/01/rdf-schema#label> ;
-        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Sink> ;
-        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn32849f03>
-        <http://www.w3.org/2000/01/rdf-schema#label>  "?property <http://www.w3.org/2000/01/rdf-schema#label> ?label ." ;
-        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/2000/01/rdf-schema#label> ;
-        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-fbd024d8-var-label> ;
-        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-fbd024d8-var-property> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnc7266538>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#not> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnbc02ecf1> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn5e36f5c8>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn3c1842c1> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn067f7d97> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn4ff9de6e>
-        <http://www.w3.org/2000/01/rdf-schema#label>  "?hasValue <http://www.w3.org/2000/01/rdf-schema#label> ?itemlabel ." ;
-        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/2000/01/rdf-schema#label> ;
-        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-fbd024d8-var-itemlabel> ;
-        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4-jv-http-www.w3.org-2000-01-rdf-schema-label>
-        <http://lsq.aksw.org/vocab#proxyFor>  <http://www.w3.org/2000/01/rdf-schema#label> ;
-        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Sink> ;
-        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn7e0e1fc0>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn32849f03> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
-        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn7e0e1fc0-jv-http-www.w3.org-2000-01-rdf-schema-label> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn4ff9de6e> .
-
-<http://lsq.aksw.org/res/q-fbd024d8-var-itemlabel>
-        <http://spinrdf.org/sp#varName>  "itemlabel" .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn4553bf10>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#not> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnbc02ecf1> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn65c9f4b7>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnd1b5b0f6> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn4553bf10> .
-
-<http://lsq.aksw.org/res/q-fbd024d8>
-        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-fbd024d8> ;
-        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-fbd024d8> ;
-        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT  ?label ?property ?hasValue ?itemlabelWHERE WHERE   { <http://dbpedia.org/resource/Fenton%2C_Michigan>               ?property  ?hasValue     OPTIONAL       { ?hasValue  rdfs:label  ?itemlabel }     OPTIONAL       { ?property  rdfs:label  ?label }     FILTER ( ( ( langMatches(lang(?label), \"en\") || ( ! langMatches(lang(?label), \"*\") ) ) && ( langMatches(lang(?hasValue), \"en\") || ( ! langMatches(lang(?hasValue), \"*\") ) ) ) && ( langMatches(lang(?itemlabel), \"en\") || ( ! langMatches(lang(?itemlabel), \"*\") ) ) )   } " ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnce529e85>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-label> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn067f7d97>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Optional> ;
-        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn7e0e1fc0> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnb9dfa7ca>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn9240388a> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> .
-
-<http://lsq.aksw.org/res/q-fbd024d8-var-hasValue>
-        <http://spinrdf.org/sp#varName>  "hasValue" .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn768771a9>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-label> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn2675f5d1>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-fbd024d8-var-label> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnf42a0583> .
-
-<http://lsq.aksw.org/res/q-fbd024d8-var-property>
+<http://lsq.aksw.org/res/q-0f5806b2-var-property>
         <http://spinrdf.org/sp#varName>  "property" .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn223a64e3>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn3adf90ab>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnce529e85> .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnc769d641>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-itemlabel> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn4d177ae7>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn9240388a>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-fbd024d8-var-itemlabelWHERE> ;
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnbfa8205f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0f5806b2-var-itemlabel> ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bnd22b44c5>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn8555245c> ;
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn09bb9e24>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-itemlabel> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn8555245c>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bncaaf65b8> ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#and> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0916c07b> .
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn65c9f4b7> .
 
-<http://lsq.aksw.org/res/sf-q-fbd024d8>
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
-        <http://lsq.aksw.org/vocab#tps>  "5"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#joinVertices>  "4"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
-        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
-        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn7e0e1fc0> ;
-        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Optional> ;
-        <http://lsq.aksw.org/vocab#minBGPTriples>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
-        <http://lsq.aksw.org/vocab#maxBGPTriples>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn0da2e3e4> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-and> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
-        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bna5177f90> ;
-        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn4ff9de6e> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-langMatches> ;
-        <http://lsq.aksw.org/vocab#projectVars>  "4"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-not> ;
-        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn32849f03> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bna5177f90>
-        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Fenton%2C_Michigan> ?property ?hasValue ." ;
-        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-fbd024d8-var-hasValue> ;
-        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Fenton%2C_Michigan> ;
-        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-fbd024d8-var-property> .
-
-<http://lsq.aksw.org/res/spin-q-fbd024d8-bn0916c07b>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bnd1b5b0f6> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-fbd024d8-bn4553bf10> .
-<http://lsq.aksw.org/res/q-4ecb6c23>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"400 \"\" at line 1, column 304.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/John_Lennon> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/John_Lennon> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  400LIMIT   200" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-5f093123>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"0 \"\" at line 1, column 304.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Jack_Bender> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/Jack_Bender> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  0LIMIT   200" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-5bf0a546>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"0 \"\" at line 1, column 306.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Oliver_Twist> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/Oliver_Twist> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  0LIMIT   200" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-34f3f666>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"200 \"\" at line 1, column 322.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Lost_%28TV_series%29> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/Lost_%28TV_series%29> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  200LIMIT   200" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/spin-q-2880670d-bn6aada970>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-2880670d-bn6f513aaf> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-2880670d-bn0f4ae1e7> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn6f513aaf>
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-2880670d-bn3ab2f515> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-2880670d-bn006450a9> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn067f7d97>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Optional> ;
-        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-2880670d-bn7e0e1fc0> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn29849369>
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnfdad23fa>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
-        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-2880670d-bn6aada970> .
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnd22b44c5> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bn3c1842c1>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-2880670d-bn067f7d97> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-2880670d-bndfc89dac> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn006450a9>
-        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-2880670d-var-type> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn26b22e0e>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#str> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-2880670d-var-x> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn7e0e1fc0>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-2880670d-bn7f4996fd> .
-
-<http://lsq.aksw.org/res/q-2880670d-var-labelWHERE>
-        <http://spinrdf.org/sp#varName>  "labelWHERE" .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn7f4996fd>
-        <http://www.w3.org/2000/01/rdf-schema#label>  "?x <http://www.w3.org/2000/01/rdf-schema#label> ?label ." ;
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn32849f03>
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-0f5806b2-var-label> ;
         <http://spinrdf.org/sp#predicate>  <http://www.w3.org/2000/01/rdf-schema#label> ;
-        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-2880670d-var-x> ;
-        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-2880670d-var-label> .
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-0f5806b2-var-property> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?property <http://www.w3.org/2000/01/rdf-schema#label> ?label ." .
 
-<http://lsq.aksw.org/res/sf-q-2880670d>
-        <http://lsq.aksw.org/vocab#tps>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
-        <http://lsq.aksw.org/vocab#projectVars>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-str> ;
-        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-2880670d-bn46ed3876> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-regex> ;
-        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-2880670d-bn627ba7d8> ;
-        <http://lsq.aksw.org/vocab#maxBGPTriples>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
-        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Optional> ;
-        <http://lsq.aksw.org/vocab#joinVertices>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
-        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-2880670d-bn7e0e1fc0> ;
-        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
-        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-2880670d-bn7f4996fd> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bndab26c7c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0f5806b2-var-label> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnf69cc5b6> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bn46ed3876>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-2880670d-bn627ba7d8> ;
-        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-2880670d-bn46ed3876-jv-x> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-2880670d-bn829a05b3> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bncdcd943a>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-2880670d-bn1deab3c1> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-2880670d-var-x> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn627ba7d8>
-        <http://www.w3.org/2000/01/rdf-schema#label>  "?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type ." ;
-        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
-        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-2880670d-var-x> ;
-        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-2880670d-var-type> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d>
-        <http://spinrdf.org/sp#where>  <http://lsq.aksw.org/res/spin-q-2880670d-bn46ed3876> ;
-        <http://spinrdf.org/sp#distinct>  true ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
-        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-2880670d-bncdcd943a> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn829a05b3>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-2880670d-bn29849369> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-2880670d-bn3c1842c1> .
-
-<http://lsq.aksw.org/res/q-2880670d>
-        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-2880670d> ;
-        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-2880670d> ;
-        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?x ?labelWHERE WHERE   { ?x  rdf:type  ?type     FILTER ( ( ( ?type = rdf:Property ) || ( ?type = owl:DatatypeProperty ) ) || ( ?type = owl:ObjectProperty ) )     OPTIONAL       { ?x  rdfs:label  ?label }     FILTER ( regex(str(?x), \"seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco\", \"i\") || regex(str(?label), \"seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco\", \"i\") )   } " ;
+<http://lsq.aksw.org/res/q-0f5806b2>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-0f5806b2> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-0f5806b2> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT  ?label ?property ?hasValue ?itemlabel WHERE   { <http://dbpedia.org/resource/Fenton%2C_Michigan>               ?property  ?hasValue     OPTIONAL       { ?hasValue  rdfs:label  ?itemlabel }     OPTIONAL       { ?property  rdfs:label  ?label }     FILTER ( ( ( langMatches(lang(?label), \"en\") || ( ! langMatches(lang(?label), \"*\") ) ) && ( langMatches(lang(?hasValue), \"en\") || ( ! langMatches(lang(?hasValue), \"*\") ) ) ) && ( langMatches(lang(?itemlabel), \"en\") || ( ! langMatches(lang(?itemlabel), \"*\") ) ) )   } " ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bn1deab3c1>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-2880670d-var-labelWHERE> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnd1b5b0f6>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn223a64e3> ;
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn09bb9e24> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bne1fc62aa>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
-        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-2880670d-bnd53e80c6> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnc7266538>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#not> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnbc02ecf1> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bn0f4ae1e7>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-2880670d-var-type> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
-        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn4ff9de6e>
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-0f5806b2-var-itemlabel> ;
+        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/2000/01/rdf-schema#label> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?hasValue <http://www.w3.org/2000/01/rdf-schema#label> ?itemlabel ." .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bna7cb99e3>
-        <http://spinrdf.org/sp#arg2>  "seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco" ;
-        <http://spinrdf.org/sp#arg3>  "i" ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-2880670d-bn26b22e0e> .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn3ab2f515>
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-2880670d-var-type> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
-        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-
-<http://lsq.aksw.org/res/q-2880670d-var-label>
+<http://lsq.aksw.org/res/q-0f5806b2-var-label>
         <http://spinrdf.org/sp#varName>  "label" .
 
-<http://lsq.aksw.org/res/q-2880670d-var-type>
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn4553bf10>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#not> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnbc02ecf1> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn65c9f4b7>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnd1b5b0f6> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn4553bf10> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnce529e85>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-label> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnc3efcff3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn3c1842c1> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn067f7d97> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn067f7d97>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Optional> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn7e0e1fc0> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-hasValue>
+        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> ;
+        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Path> ;
+        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnb9dfa7ca>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnbfa8205f> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> .
+
+<http://lsq.aksw.org/res/q-0f5806b2-var-itemlabel>
+        <http://spinrdf.org/sp#varName>  "itemlabel" .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn7e0e1fc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn32849f03> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn4ff9de6e> ;
+        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn7e0e1fc0-jv-http-www.w3.org-2000-01-rdf-schema-label> .
+
+<http://lsq.aksw.org/res/sf-q-0f5806b2>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn32849f03> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn7e0e1fc0> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-langMatches> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-and> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "4"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn4ff9de6e> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-not> ;
+        <http://lsq.aksw.org/vocab#tps>  "5"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Optional> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnff76b387> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "4"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn768771a9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-label> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-http-www.w3.org-2000-01-rdf-schema-label>
+        <http://lsq.aksw.org/vocab#proxyFor>  <http://www.w3.org/2000/01/rdf-schema#label> ;
+        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Sink> ;
+        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-property>
+        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-0f5806b2-var-property> ;
+        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Path> ;
+        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bndab26c7c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#where>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn7e0e1fc0-jv-http-www.w3.org-2000-01-rdf-schema-label>
+        <http://lsq.aksw.org/vocab#proxyFor>  <http://www.w3.org/2000/01/rdf-schema#label> ;
+        <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Sink> ;
+        <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn223a64e3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnc769d641>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-itemlabel> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn4d177ae7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0f5806b2-var-hasValue> .
+
+<http://lsq.aksw.org/res/q-0f5806b2-var-hasValue>
+        <http://spinrdf.org/sp#varName>  "hasValue" .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnd22b44c5>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn8555245c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#and> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn0916c07b> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc>
+        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-property> ;
+        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-hasValue> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnff76b387> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnc3efcff3> ;
+        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bne324a7cc-jv-http-www.w3.org-2000-01-rdf-schema-label> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bn0916c07b>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnd1b5b0f6> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn4553bf10> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnbc02ecf1>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnc769d641> ;
+        <http://spinrdf.org/sp#arg2>  "*" ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn768771a9> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#langMatches> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn4d177ae7> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bnf69cc5b6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnb9dfa7ca> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0f5806b2-var-property> .
+
+<http://lsq.aksw.org/res/spin-q-0f5806b2-bncaaf65b8>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bn3adf90ab> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0f5806b2-bnc7266538> .
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn3033b1d8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn22183e12> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn3826c5c5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-46eaf32b-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn385487f6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-46eaf32b-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn9d7941f0> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-46eaf32b-var-object> .
+
+<http://lsq.aksw.org/res/q-46eaf32b>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-46eaf32b> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-46eaf32b> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :John_Lennon  ?predicate  ?object }     UNION       { ?subject  ?predicate  :John_Lennon }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  400 LIMIT   200 " ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/q-46eaf32b-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bnd222b1f8>
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/John_Lennon> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-46eaf32b-var-predicate> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-46eaf32b-var-subject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/John_Lennon> ." .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn28529475>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bncc65df6e> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn9c85cd6f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bned44b65e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-46eaf32b-var-predicate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn3826c5c5> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn385487f6> ;
+        <http://spinrdf.org/sp#offset>  "400"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bned44b65e> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-46eaf32b-bn5431d910> .
+
+<http://lsq.aksw.org/res/q-46eaf32b-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn5431d910>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn9c85cd6f> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn3033b1d8> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-46eaf32b-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bnbd7bacc0> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn28529475> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn74436cff>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bnd222b1f8> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn22183e12>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn97ef357a> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn3dfbfebf> .
+
+<http://lsq.aksw.org/res/q-46eaf32b-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bncc65df6e>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/John_Lennon> ?predicate ?object ." ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-46eaf32b-var-object> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/John_Lennon> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-46eaf32b-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn53112717> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bn9d7941f0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-46eaf32b-var-predicate> .
+
+<http://lsq.aksw.org/res/sf-q-46eaf32b>
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn28529475> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bncc65df6e> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Offset> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bnd222b1f8> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn74436cff> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-46eaf32b-var-object> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-46eaf32b-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-46eaf32b-bn74436cff> .
+<http://lsq.aksw.org/res/spin-q-76510e49-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-76510e49-var-object> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bn87b2e787> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bnc83daccd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-76510e49-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-76510e49-bn22183e12> .
+
+<http://lsq.aksw.org/res/sf-q-76510e49>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-76510e49-bn96578f35> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-76510e49-bna94c75ad> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-76510e49-bna0f734cc> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-76510e49-bn87b2e787> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-76510e49-var-object> .
+
+<http://lsq.aksw.org/res/q-76510e49-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn87b2e787>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bna94c75ad> .
+
+<http://lsq.aksw.org/res/q-76510e49>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-76510e49> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-76510e49> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :Jack_Bender  ?predicate  ?object }     UNION       { ?subject  ?predicate  :Jack_Bender }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  0 LIMIT   200 " ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/q-76510e49-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bnb1a44ced>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bna94c75ad>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/Jack_Bender> ." ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-76510e49-var-predicate> ;
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/Jack_Bender> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-76510e49-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-76510e49-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-76510e49-bn410120a2> ;
+        <http://spinrdf.org/sp#offset>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-76510e49-bn7403d759> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-76510e49-bnbe38f9f0> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bna0f734cc> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-76510e49-bnbd7bacc0> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn6b61f183>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-76510e49-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn96578f35>
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-76510e49-var-predicate> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Jack_Bender> ?predicate ?object ." ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Jack_Bender> ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-76510e49-var-object> .
+
+<http://lsq.aksw.org/res/q-76510e49-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn356373af>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-76510e49-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-76510e49-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn22183e12>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-76510e49-bn3dfbfebf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-76510e49-bn97ef357a> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bna0f734cc>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bn96578f35> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-76510e49-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn7403d759>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-76510e49-bnb1a44ced> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-76510e49-bn6b61f183> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-76510e49-bn53112717> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bn410120a2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-76510e49-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-76510e49-bn356373af> .
+
+<http://lsq.aksw.org/res/spin-q-76510e49-bnbe38f9f0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-76510e49-var-predicate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-76510e49-bnc83daccd> .
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnbd7bacc0> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn852addcb> .
+
+<http://lsq.aksw.org/res/q-0ae0e8f0-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn67981382>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bne81556b1> .
+
+<http://lsq.aksw.org/res/sf-q-0ae0e8f0>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn852addcb> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn67981382> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bne81556b1> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn59a34c4f> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn22183e12>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn97ef357a> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn3dfbfebf> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0>
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn7014c69a> ;
+        <http://spinrdf.org/sp#offset>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn31062cdf> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnb0a693af> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn1c67b929>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn852addcb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn59a34c4f> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bne81556b1>
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/Oliver_Twist> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-predicate> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-subject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/Oliver_Twist> ." .
+
+<http://lsq.aksw.org/res/q-0ae0e8f0>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-0ae0e8f0> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :Oliver_Twist                   ?predicate  ?object       }     UNION       { ?subject  ?predicate  :Oliver_Twist }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  0 LIMIT   200 " ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/q-0ae0e8f0-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn7014c69a>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn1c67b929> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn02fef3ea> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn53112717> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn67981382> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-object> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn02fef3ea>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn59a34c4f>
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-predicate> ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-object> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Oliver_Twist> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Oliver_Twist> ?predicate ?object ." .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn22183e12> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnb0a693af>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn0cc1c769> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn31062cdf>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bna4000ca1> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn0cc1c769>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-subject> .
+
+<http://lsq.aksw.org/res/q-0ae0e8f0-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bna4000ca1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-0ae0e8f0-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-0ae0e8f0-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-0ae0e8f0-var-object> .
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-dffb1658-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn0f18c5a4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn20bfcc6d> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bnc633de35> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-dffb1658-bnbd7bacc0> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn22183e12>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn3dfbfebf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn97ef357a> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn3f4fa21e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn0cdc3913> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-dffb1658-var-predicate> .
+
+<http://lsq.aksw.org/res/sf-q-dffb1658>
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn0d14cfc0> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-dffb1658-bnc633de35> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Offset> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn0f18c5a4> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn20bfcc6d> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn85a4b5e6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn8d1b51dd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn2f2644f3> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-dffb1658-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn20bfcc6d>
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-dffb1658-var-predicate> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-dffb1658-var-subject> ;
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/Lost_%28TV_series%29> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/Lost_%28TV_series%29> ." .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn07f069e6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn53112717> .
+
+<http://lsq.aksw.org/res/q-dffb1658>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-dffb1658> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-dffb1658> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { <http://dbpedia.org/resource/Lost_%28TV_series%29>                   ?predicate  ?object       }     UNION       { ?subject  ?predicate  <http://dbpedia.org/resource/Lost_%28TV_series%29> }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  200 LIMIT   200 " ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn0f18c5a4> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-dffb1658-var-object> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn5ab151f4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn07f069e6> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn85a4b5e6> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn22183e12> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-dffb1658-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn8d1b51dd> ;
+        <http://spinrdf.org/sp#offset>  "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn3f4fa21e> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-dffb1658-bn5ab151f4> .
+
+<http://lsq.aksw.org/res/q-dffb1658-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bnc633de35>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-dffb1658-bn0d14cfc0> .
+
+<http://lsq.aksw.org/res/q-dffb1658-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/q-dffb1658-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn0d14cfc0>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Lost_%28TV_series%29> ?predicate ?object ." ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-dffb1658-var-object> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Lost_%28TV_series%29> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-dffb1658-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn2f2644f3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-dffb1658-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-dffb1658-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-dffb1658-bn0cdc3913>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-dffb1658-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lsq.aksw.org/res/q-da0d0e28-var-type>
         <http://spinrdf.org/sp#varName>  "type" .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bnd53e80c6>
-        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-2880670d-bn04a3e2b0> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-2880670d-bna7cb99e3> .
+<http://lsq.aksw.org/res/q-da0d0e28-var-x>
+        <http://spinrdf.org/sp#varName>  "x" .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bndfc89dac>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-2880670d-bne1fc62aa> .
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn3c1842c1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn067f7d97> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bndfc89dac> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bne42ee143>
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn006450a9>
+        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-da0d0e28-var-type> .
+
+<http://lsq.aksw.org/res/q-da0d0e28>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-da0d0e28> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-da0d0e28> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?x ?label WHERE   { ?x  rdf:type  ?type     FILTER ( ( ( ?type = rdf:Property ) || ( ?type = owl:DatatypeProperty ) ) || ( ?type = owl:ObjectProperty ) )     OPTIONAL       { ?x  rdfs:label  ?label }     FILTER ( regex(str(?x), \"seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco\", \"i\") || regex(str(?label), \"seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco\", \"i\") )   } " ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn26b22e0e>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#str> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-2880670d-var-label> .
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-da0d0e28-var-x> .
 
-<http://lsq.aksw.org/res/spin-q-2880670d-bn04a3e2b0>
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn7e0e1fc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn7f4996fd> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn59999375>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn29849369> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn3c1842c1> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn7f4996fd>
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-da0d0e28-var-x> ;
+        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/2000/01/rdf-schema#label> ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-da0d0e28-var-label> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?x <http://www.w3.org/2000/01/rdf-schema#label> ?label ." .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn6aa4536c> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#where>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn27fffc51> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bna80376a4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-da0d0e28-var-label> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bnce365f9e>
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-da0d0e28-var-x> ;
+        <http://spinrdf.org/sp#predicate>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-da0d0e28-var-type> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type ." .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bnd53e80c6> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn0f4ae1e7>
+        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-da0d0e28-var-type> .
+
+<http://lsq.aksw.org/res/q-da0d0e28-var-label>
+        <http://spinrdf.org/sp#varName>  "label" .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bna7cb99e3>
         <http://spinrdf.org/sp#arg2>  "seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco" ;
         <http://spinrdf.org/sp#arg3>  "i" ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
-        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-2880670d-bne42ee143> .
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn26b22e0e> .
 
-<http://lsq.aksw.org/res/q-2880670d-var-x>
-        <http://spinrdf.org/sp#varName>  "x" .
-
-<http://lsq.aksw.org/res/spin-q-2880670d-bn46ed3876-jv-x>
-        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-2880670d-var-x> ;
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn27fffc51-jv-x>
+        <http://lsq.aksw.org/vocab#proxyFor>  <http://lsq.aksw.org/res/q-da0d0e28-var-x> ;
         <http://lsq.aksw.org/vocab#joinVertexType>  <http://lsq.aksw.org/vocab#Star> ;
         <http://lsq.aksw.org/vocab#joinVertexDegree>  "2"^^<http://www.w3.org/2001/XMLSchema#long> .
-<http://lsq.aksw.org/res/q-0b5cb2b6>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"16 \"\" at line 1, column 456.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?s ?p ?oWHERE  {   { { ?s ?p ?o }        FILTER ( ( ( ?s = :Virginia_Wolf ) && regex(?p, \"(http://dbpedia.org/property/|http://dbpedia.org/ontology/)\") ) && regex(?o, \"http://dbpedia.org/resource/\") )      }    UNION      { { ?s ?p ?o }        FILTER ( ( ( ?o = :Virginia_Wolf ) && regex(?p, \"(http://dbpedia.org/property/|http://dbpedia.org/ontology/)\") ) && regex(?s, \"http://dbpedia.org/resource/\") )      }  }ORDER BY ?s ?p ?oLIMIT   16" ;
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn3ab2f515>
+        <http://spinrdf.org/sp#arg2>  <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-da0d0e28-var-type> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn6aa4536c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bna80376a4> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-da0d0e28-var-x> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bnd53e80c6>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn04a3e2b0> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bna7cb99e3> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bndfc89dac>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bne42ee143>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#str> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-da0d0e28-var-label> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn04a3e2b0>
+        <http://spinrdf.org/sp#arg2>  "seafood|Hoosier State|atomic number 49|inward|in|Indiana|IN|inch|inwards|indium|In|city|metropolis|urban center|san|francisco" ;
+        <http://spinrdf.org/sp#arg3>  "i" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bne42ee143> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn27fffc51>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn59999375> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bnce365f9e> ;
+        <http://lsq.aksw.org/vocab#joinVertex>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn27fffc51-jv-x> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn6aada970>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn0f4ae1e7> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn6f513aaf> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn6f513aaf>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn3ab2f515> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn006450a9> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn067f7d97>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Optional> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn7e0e1fc0> .
+
+<http://lsq.aksw.org/res/sf-q-da0d0e28>
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn27fffc51> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-str> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bnce365f9e> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-regex> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn7f4996fd> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn7e0e1fc0> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Optional> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#tps>  "3"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-da0d0e28-bn29849369>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-da0d0e28-bn6aada970> .
+<http://lsq.aksw.org/res/spin-q-63b97a34>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn8a69c5b5> ;
+        <http://spinrdf.org/sp#limit>  "16"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#where>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn254a162c> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnaa838314> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn3d1f125b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn255182d2> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnaa838314>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn4a1dc08d> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-63b97a34-var-s> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn254a162c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bna87cae39> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn108a097c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn3d1f125b> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn446218c9> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnfdad23fa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnae763107> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn8a69c5b5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn2705d837> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-63b97a34-var-s> .
+
+<http://lsq.aksw.org/res/q-63b97a34>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-63b97a34> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-63b97a34> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  dbo:  <http://dbpedia.org/ontology/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  dbp:  <http://dbpedia.org/property/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?s ?p ?o WHERE   {   { { ?s  ?p  ?o }         FILTER ( ( ( ?s = :Virginia_Wolf ) && regex(?p, \"(http://dbpedia.org/property/|http://dbpedia.org/ontology/)\") ) && regex(?o, \"http://dbpedia.org/resource/\") )       }     UNION       { { ?s  ?p  ?o }         FILTER ( ( ( ?o = :Virginia_Wolf ) && regex(?p, \"(http://dbpedia.org/property/|http://dbpedia.org/ontology/)\") ) && regex(?s, \"http://dbpedia.org/resource/\") )       }   } ORDER BY ?s ?p ?o LIMIT   16 " ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-033d0463>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"0 \"\" at line 1, column 312.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/We_Are_Marshall> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/We_Are_Marshall> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  0LIMIT   200" ;
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bneefe0ad3>
+        <http://spinrdf.org/sp#arg2>  "http://dbpedia.org/resource/" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-63b97a34-var-s> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnb23c9558>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn3d1f125b> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn446218c9> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnc5c5e7bf>
+        <http://spinrdf.org/sp#arg2>  <http://dbpedia.org/resource/Virginia_Wolf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-63b97a34-var-o> .
+
+<http://lsq.aksw.org/res/q-63b97a34-var-p>
+        <http://spinrdf.org/sp#varName>  "p" .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn446218c9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnfdad23fa> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn255182d2>
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-63b97a34-var-o> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-63b97a34-var-p> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?s ?p ?o ." ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-63b97a34-var-s> .
+
+<http://lsq.aksw.org/res/q-63b97a34-var-o>
+        <http://spinrdf.org/sp#varName>  "o" .
+
+<http://lsq.aksw.org/res/sf-q-63b97a34>
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#bgps>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#tps>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-regex> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn255182d2> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn3d1f125b> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-and> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bna87cae39>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnc8fda352> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnc56e1ccb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-63b97a34-var-o> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn2533bb33>
+        <http://spinrdf.org/sp#arg2>  "http://dbpedia.org/resource/" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-63b97a34-var-o> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnae763107>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn2533bb33> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnb7053590> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#and> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-63b97a34-bneefe0ad3> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn2705d837>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-63b97a34-var-p> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnc56e1ccb> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn046b1ff8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnb23c9558> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnb7053590>
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn0b1930c9> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnc5c5e7bf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#and> ;
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn0d852fed> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn0b1930c9>
+        <http://spinrdf.org/sp#arg2>  <http://dbpedia.org/resource/Virginia_Wolf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-63b97a34-var-s> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn0d852fed>
+        <http://spinrdf.org/sp#arg2>  "(http://dbpedia.org/property/|http://dbpedia.org/ontology/)" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#regex> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-63b97a34-var-p> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bnc8fda352>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn108a097c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bn046b1ff8> .
+
+<http://lsq.aksw.org/res/spin-q-63b97a34-bn4a1dc08d>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-63b97a34-bnc56e1ccb> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-63b97a34-var-p> .
+
+<http://lsq.aksw.org/res/q-63b97a34-var-s>
+        <http://spinrdf.org/sp#varName>  "s" .
+<http://lsq.aksw.org/res/q-bf2b5337>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-bf2b5337> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-bf2b5337> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  dbo:  <http://dbpedia.org/ontology/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  dbp:  <http://dbpedia.org/property/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :We_Are_Marshall                   ?predicate  ?object       }     UNION       { ?subject  ?predicate  :We_Are_Marshall }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  0 LIMIT   200 " ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-909682ab>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"0 \"\" at line 1, column 296.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Fantasy> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/Fantasy> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  0LIMIT   200" ;
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-bf2b5337-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn34050dbf>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/We_Are_Marshall> ." ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-bf2b5337-var-predicate> ;
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/We_Are_Marshall> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-bf2b5337-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn7aa1b576>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/sf-q-bf2b5337>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnbf1f2165> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnc0d83788> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn34050dbf> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnb0a270c5> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337>
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn799005cf> ;
+        <http://spinrdf.org/sp#offset>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-bf2b5337-bn86642806> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnde572859> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn15900611>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnde572859>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-bf2b5337-var-predicate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bne424d6ca> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnbf1f2165>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn34050dbf> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn86642806>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn15900611> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn7aa1b576> .
+
+<http://lsq.aksw.org/res/q-bf2b5337-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/q-bf2b5337-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnc0d83788>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnb0a270c5> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn799005cf>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bna9ff8316> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-bf2b5337-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bna9ff8316>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-bf2b5337-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-bf2b5337-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnb0a270c5>
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-bf2b5337-var-object> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-bf2b5337-var-predicate> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/We_Are_Marshall> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/We_Are_Marshall> ?predicate ?object ." .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bne424d6ca>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-bf2b5337-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnc0d83788> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnbd7bacc0> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn53112717> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-bf2b5337-var-object> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bnbf1f2165> .
+
+<http://lsq.aksw.org/res/q-bf2b5337-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bn22183e12>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn3dfbfebf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn97ef357a> .
+
+<http://lsq.aksw.org/res/spin-q-bf2b5337-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-bf2b5337-bn22183e12> .
+<http://lsq.aksw.org/res/spin-q-526cefb3-bndcc3f328>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-526cefb3-var-predicate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-526cefb3-bndd2ded7d> .
+
+<http://lsq.aksw.org/res/q-526cefb3-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
+
+<http://lsq.aksw.org/res/q-526cefb3>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-526cefb3> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-526cefb3> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  dbo:  <http://dbpedia.org/ontology/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  dbp:  <http://dbpedia.org/property/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :Fantasy  ?predicate  ?object }     UNION       { ?subject  ?predicate  :Fantasy }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  0 LIMIT   200 " ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
-<http://lsq.aksw.org/res/q-34d6d913>
-        <http://lsq.aksw.org/vocab#parseError>  "Encountered \" <INTEGER> \"0 \"\" at line 1, column 308.\nWas expecting one of:\n    <EOF> \n    <IRIref> ...\n    <PNAME_NS> ...\n    <PNAME_LN> ...\n    <VAR1> ...\n    <VAR2> ...\n    \"limit\" ...\n    \"offset\" ...\n    \"values\" ...\n    \"asc\" ...\n    \"desc\" ...\n    \"exists\" ...\n    \"not\" ...\n    \"agg\" ...\n    \"count\" ...\n    \"min\" ...\n    \"max\" ...\n    \"sum\" ...\n    \"avg\" ...\n    \"stdev\" ...\n    \"stdev_samp\" ...\n    \"stdev_pop\" ...\n    \"variance\" ...\n    \"var_samp\" ...\n    \"var_pop\" ...\n    \"sample\" ...\n    \"group_concat\" ...\n    \"bound\" ...\n    \"coalesce\" ...\n    \"if\" ...\n    \"bnode\" ...\n    \"iri\" ...\n    \"uri\" ...\n    \"call\" ...\n    \"str\" ...\n    \"strlang\" ...\n    \"strdt\" ...\n    \"datatype\" ...\n    \"lang\" ...\n    \"langmatches\" ...\n    \"isURI\" ...\n    \"isIRI\" ...\n    \"isBlank\" ...\n    \"isLiteral\" ...\n    \"isNumeric\" ...\n    \"regex\" ...\n    \"sameTerm\" ...\n    \"RAND\" ...\n    \"ABS\" ...\n    \"CEIL\" ...\n    \"FLOOR\" ...\n    \"ROUND\" ...\n    \"CONCAT\" ...\n    \"SUBSTR\" ...\n    \"STRLEN\" ...\n    \"REPLACE\" ...\n    \"UCASE\" ...\n    \"LCASE\" ...\n    \"ENCODE_FOR_URI\" ...\n    \"CONTAINS\" ...\n    \"STRSTARTS\" ...\n    \"STRENDS\" ...\n    \"STRBEFORE\" ...\n    \"STRAFTER\" ...\n    \"YEAR\" ...\n    \"MONTH\" ...\n    \"DAY\" ...\n    \"HOURS\" ...\n    \"MINUTES\" ...\n    \"SECONDS\" ...\n    \"TIMEZONE\" ...\n    \"TZ\" ...\n    \"NOW\" ...\n    \"UUID\" ...\n    \"STRUUID\" ...\n    \"VERSION\" ...\n    \"MD5\" ...\n    \"SHA1\" ...\n    \"SHA256\" ...\n    \"SHA384\" ...\n    \"SHA512\" ...\n    \"(\" ...\n    " ;
-        <http://lsq.aksw.org/vocab#text>  "SELECT DISTINCT  ?subject ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Barnaby_Rudge> ?predicate ?object }    UNION      { ?subject ?predicate <http://dbpedia.org/resource/Barnaby_Rudge> }    FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )  }ORDER BY ?predicate ?subjectOFFSET  0LIMIT   200" ;
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnd435a690>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn5d1ca818> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-526cefb3-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn84d804c9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnc2e11fae> .
+
+<http://lsq.aksw.org/res/q-526cefb3-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn1361329e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnd7cdde95>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnd936c901> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn1361329e> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnd936c901>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/q-526cefb3-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bne7601352>
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-526cefb3-var-subject> ;
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/Fantasy> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-526cefb3-var-predicate> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/Fantasy> ." .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-526cefb3-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnbd7bacc0> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn84d804c9> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn53112717> .
+
+<http://lsq.aksw.org/res/sf-q-526cefb3>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn14aeb2ed> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnc2e11fae> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-526cefb3-bne7601352> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn84d804c9> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-526cefb3-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn14aeb2ed> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bnc2e11fae>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Fantasy> ?predicate ?object ." ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-526cefb3-var-object> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Fantasy> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-526cefb3-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bndd2ded7d>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-526cefb3-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn22183e12>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn3dfbfebf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn97ef357a> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-526cefb3-bn22183e12> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn14aeb2ed>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-526cefb3-bne7601352> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3>
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-526cefb3-bnd7cdde95> ;
+        <http://spinrdf.org/sp#offset>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnd435a690> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-526cefb3-bndcc3f328> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn5d1ca818>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-526cefb3-bnacee976c> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-526cefb3-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-526cefb3-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-526cefb3-var-object> .
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn8b03dc6f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn0074310e> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-1b6b15d4-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnaa9eed40>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "<http://dbpedia.org/resource/Barnaby_Rudge> ?predicate ?object ." ;
+        <http://spinrdf.org/sp#object>  <http://lsq.aksw.org/res/q-1b6b15d4-var-object> ;
+        <http://spinrdf.org/sp#subject>  <http://dbpedia.org/resource/Barnaby_Rudge> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-1b6b15d4-var-predicate> .
+
+<http://lsq.aksw.org/res/q-1b6b15d4-var-object>
+        <http://spinrdf.org/sp#varName>  "object" .
+
+<http://lsq.aksw.org/res/sf-q-1b6b15d4>
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#TriplePattern> ;
+        <http://lsq.aksw.org/vocab#bgps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-or> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bna9bf99c2> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-eq> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Functions> ;
+        <http://lsq.aksw.org/vocab#joinVertices>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#hasBGP>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn2f40b25a> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn806ce922> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Distinct> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Limit> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Union> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#OrderBy> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Filter> ;
+        <http://lsq.aksw.org/vocab#meanJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Group> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#Select> ;
+        <http://lsq.aksw.org/vocab#hasTP>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnaa9eed40> ;
+        <http://lsq.aksw.org/vocab#minBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#medianJoinVertexDegree>  "0.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://lsq.aksw.org/vocab#projectVars>  "3"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#tps>  "2"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#maxBGPTriples>  "1"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://lsq.aksw.org/vocab#usesFeature>  <http://lsq.aksw.org/vocab#fn-lang> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn2f40b25a>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn806ce922> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn937debb5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-1b6b15d4-var-object> .
+
+<http://lsq.aksw.org/res/q-1b6b15d4-var-predicate>
+        <http://spinrdf.org/sp#varName>  "predicate" .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnac3885fb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Union> ;
+        <http://spinrdf.org/sp#elements>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn3411cfdd> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn3411cfdd>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnbd7bacc0> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bna9bf99c2> .
+
+<http://lsq.aksw.org/res/q-1b6b15d4>
+        <http://lsq.aksw.org/vocab#hasStructuralFeatures>  <http://lsq.aksw.org/res/sf-q-1b6b15d4> ;
+        <http://lsq.aksw.org/vocab#hasSpin>  <http://lsq.aksw.org/res/spin-q-1b6b15d4> ;
+        <http://lsq.aksw.org/vocab#text>  "PREFIX  :     <http://dbpedia.org/resource/> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  skos: <http://www.w3.org/2004/02/skos/core#> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  dbpedia: <http://dbpedia.org/> PREFIX  vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> PREFIX  co:   <http://www.geonames.org/countries/#> PREFIX  cyc:  <http://www.cyc.com/2004/06/04/cyc#> PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  p:    <http://dbpedia.org/property/> PREFIX  dbo:  <http://dbpedia.org/ontology/> PREFIX  rss:  <http://purl.org/rss/1.0/> PREFIX  dbp:  <http://dbpedia.org/property/> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  time: <http://pervasive.semanticweb.org/ont/2004/06/time#> PREFIX  dbpedia2: <http://dbpedia.org/property/> PREFIX  category: <http://dbpedia.org/resource/Category:> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  dc:   <http://purl.org/dc/elements/1.1/> PREFIX  sioc: <http://rdfs.org/sioc/ns#>  SELECT DISTINCT  ?subject ?predicate ?object WHERE   {   { :Barnaby_Rudge                   ?predicate  ?object       }     UNION       { ?subject  ?predicate  :Barnaby_Rudge }     FILTER ( ( lang(?object) = \"en\" ) || ( lang(?object) = \"\" ) )   } ORDER BY ?predicate ?subject OFFSET  0 LIMIT   200 " ;
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://lsq.aksw.org/vocab#Query> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn0d1c3b54>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bne1fc62aa> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4>
+        <http://spinrdf.org/sp#where>   <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnb4258c28> ;
+        <http://spinrdf.org/sp#offset>  "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#limit>   "200"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://spinrdf.org/sp#orderBy>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn8b03dc6f> ;
+        <http://spinrdf.org/sp#distinct>  true ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Select> ;
+        <http://spinrdf.org/sp#resultVariables>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnc7f5b1c2> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn22183e12>
+        <http://spinrdf.org/sp#arg2>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn3dfbfebf> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#or> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn97ef357a> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnb9bf2c59>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-1b6b15d4-var-predicate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnacee976c> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnc7f5b1c2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnb9bf2c59> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-1b6b15d4-var-subject> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bna9bf99c2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnaa9eed40> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn53112717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#lang> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/q-1b6b15d4-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn3dfbfebf>
+        <http://spinrdf.org/sp#arg2>  "" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn937debb5> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn97ef357a>
+        <http://spinrdf.org/sp#arg2>  "en" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#eq> ;
+        <http://spinrdf.org/sp#arg1>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn53112717> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn806ce922>
+        <http://www.w3.org/2000/01/rdf-schema#label>  "?subject ?predicate <http://dbpedia.org/resource/Barnaby_Rudge> ." ;
+        <http://spinrdf.org/sp#object>  <http://dbpedia.org/resource/Barnaby_Rudge> ;
+        <http://spinrdf.org/sp#subject>  <http://lsq.aksw.org/res/q-1b6b15d4-var-subject> ;
+        <http://spinrdf.org/sp#predicate>  <http://lsq.aksw.org/res/q-1b6b15d4-var-predicate> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnb4258c28>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn0d1c3b54> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bnac3885fb> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bn0074310e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-1b6b15d4-var-subject> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnacee976c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/q-1b6b15d4-var-object> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bnbd7bacc0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn2f40b25a> .
+
+<http://lsq.aksw.org/res/spin-q-1b6b15d4-bne1fc62aa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://spinrdf.org/sp#Filter> ;
+        <http://spinrdf.org/sp#expression>  <http://lsq.aksw.org/res/spin-q-1b6b15d4-bn22183e12> .
+
+<http://lsq.aksw.org/res/q-1b6b15d4-var-subject>
+        <http://spinrdf.org/sp#varName>  "subject" .
 <http://lsq.aksw.org/res/mydata>
-        <http://www.w3.org/ns/prov#endAtTime>  "2019-02-15T14:00:18.544Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        <http://www.w3.org/ns/prov#endAtTime>  "2019-02-15T14:36:13.597Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
