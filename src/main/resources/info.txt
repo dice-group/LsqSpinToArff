@@ -1,0 +1,8 @@
+negative.txt
+positive.txt
+ Queries of SPAB webdemo ("webdemo feasible-dbpedia-select results as default data")
+ https://github.com/dice-group/SPAB/tree/webdemo/src/main/resources/org/dice_research/spab/webdemo/data
+negative.ttl
+positive.ttl
+ Generated using LSQ
+ -f negative.txt -o negative.ttl -m sparql -r q
