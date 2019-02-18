@@ -20,8 +20,14 @@ import weka.core.Instances;
 public abstract class Converter {
 
 	public final static String ARFF_RELATION_NAME = "Dataset";
-	public final static String ARFF_ATTRIBUTE_CLASS = "queryUri";
+	public final static String ARFF_ATTRIBUTE_QUERY_URI = "http://lsq.aksw.org/vocab#Query";
 	public final static String ARFF_ATTRIBUTE_POSITIVE_SET = "positive";
+
+	/**
+	 * Class attribute/value is to be predicted,
+	 * https://www.youtube.com/watch?v=BO6XJSaFYzk&feature=youtu.be&t=49
+	 */
+	public final static String ARFF_ATTRIBUTE_CLASS = ARFF_ATTRIBUTE_POSITIVE_SET;
 
 	/**
 	 * Adds feature {@link Converter#ARFF_ATTRIBUTE_POSITIVE_SET} to all
@@ -29,7 +35,7 @@ public abstract class Converter {
 	 * 
 	 * @param queries Collection of query-objects
 	 */
-	public static void setPositive(Collection<Query> queries) {
+	public static void setPositiveFeature(Collection<Query> queries) {
 		for (Query query : queries) {
 			query.features.add(ARFF_ATTRIBUTE_POSITIVE_SET);
 		}
@@ -39,29 +45,33 @@ public abstract class Converter {
 	 * Creates ARFF data.
 	 * 
 	 * @param queries     Queries
-	 * @param allFeatures List of features
+	 * @param allFeatures List of all features
 	 * @return ARFF data
 	 */
 	public static Instances createArff(Collection<Query> queries, List<String> allFeatures) {
 
-		// Create ARFF attributes
+		// Map is used to assign features of query-objects to attribute-objects
 		Map<String, Attribute> featuresToAttributes = new HashMap<String, Attribute>(allFeatures.size());
 		for (String feature : allFeatures) {
 			featuresToAttributes.put(feature, new Attribute(feature));
 		}
-		ArrayList<Attribute> attributes = new ArrayList<Attribute>(featuresToAttributes.values());
-		Attribute classAttibute = new Attribute(ARFF_ATTRIBUTE_CLASS, true);
-		attributes.add(classAttibute);
 
-		// Create list to return
-		Instances instances = new Instances(ARFF_ATTRIBUTE_CLASS, attributes, queries.size());
-		instances.setClass(classAttibute);
+		// Create list of all attribute-objects
+		ArrayList<Attribute> attributes = new ArrayList<Attribute>(featuresToAttributes.values());
+		Attribute queryUriAttibute = new Attribute(ARFF_ATTRIBUTE_QUERY_URI, true);
+		attributes.add(queryUriAttibute);
+
+		// Create instances-object to return
+		Instances instances = new Instances(ARFF_RELATION_NAME, attributes, queries.size());
+
+		// Set attribute to predict
+		instances.setClass(featuresToAttributes.get(ARFF_ATTRIBUTE_POSITIVE_SET));
 
 		// Add data
 		double[] doubleArray = new double[attributes.size()];
 		for (Query query : queries) {
 			Instance instance = new DenseInstance(attributes.size());
-			instance.setValue(classAttibute, query.uri);
+			instance.setValue(queryUriAttibute, query.uri);
 			for (String feature : query.features) {
 				instance.setValue(featuresToAttributes.get(feature), 1);
 			}
@@ -69,7 +79,6 @@ public abstract class Converter {
 			instance.replaceMissingValues(doubleArray);
 
 			instances.add(instance);
-
 		}
 
 		return instances;

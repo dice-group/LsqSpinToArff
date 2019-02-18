@@ -1,4 +1,4 @@
-@relation queryUri
+@relation Dataset
 
 @attribute http://lsq.aksw.org/vocab#Limit numeric
 @attribute http://lsq.aksw.org/vocab#fn-langMatches numeric
@@ -20,7 +20,7 @@
 @attribute http://lsq.aksw.org/vocab#Select numeric
 @attribute http://lsq.aksw.org/vocab#fn-and numeric
 @attribute http://lsq.aksw.org/vocab#fn-lang numeric
-@attribute queryUri string
+@attribute http://lsq.aksw.org/vocab#Query string
 
 @data
 1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-1b6b15d4

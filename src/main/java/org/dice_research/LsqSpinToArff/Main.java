@@ -54,7 +54,7 @@ public class Main {
 			System.out.println(outFile);
 		}
 
-		// Extract information out of SPARQL queries
+		// Extract information (features) out of LSQ/SPIN/RDF data
 
 		Collection<Query> queriesPositive = Reader.extract(inFilePositive.getAbsolutePath());
 		if (PRINT_EXTRACTION) {
@@ -77,7 +77,7 @@ public class Main {
 		}
 
 		LinkedList<Query> queries = Lists.newLinkedList(queriesPositive);
-		Converter.setPositive(queries);
+		Converter.setPositiveFeature(queries);
 		queries.addAll(queriesNegative);
 
 		// Create ARFF
