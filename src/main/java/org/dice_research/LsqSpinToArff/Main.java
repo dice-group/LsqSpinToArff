@@ -66,7 +66,7 @@ public class Main {
 			System.out.println(stringBuilder);
 		}
 
-		Collection<Query> queriesNegative = Reader.extract(inFilePositive.getAbsolutePath());
+		Collection<Query> queriesNegative = Reader.extract(inFileNegative.getAbsolutePath());
 		if (PRINT_EXTRACTION) {
 			System.out.println("\n" + "EXTRACTION, NEGATIVE" + "\n");
 			StringBuilder stringBuilder = new StringBuilder();

@@ -17,29 +17,30 @@
 @attribute http://lsq.aksw.org/vocab#fn-str numeric
 @attribute http://lsq.aksw.org/vocab#Filter numeric
 @attribute http://lsq.aksw.org/vocab#OrderBy numeric
+@attribute http://lsq.aksw.org/vocab#fn-lt numeric
 @attribute http://lsq.aksw.org/vocab#Select numeric
 @attribute http://lsq.aksw.org/vocab#fn-and numeric
 @attribute http://lsq.aksw.org/vocab#fn-lang numeric
 @attribute http://lsq.aksw.org/vocab#Query string
 
 @data
-1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-1b6b15d4
-1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-bf2b5337
-1,0,0,1,0,1,1,1,1,1,1,0,0,1,0,1,1,1,1,0,http://lsq.aksw.org/res/q-63b97a34
-1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-dffb1658
-1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-76510e49
-0,0,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,1,0,0,http://lsq.aksw.org/res/q-da0d0e28
-0,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,1,1,1,http://lsq.aksw.org/res/q-0f5806b2
-1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-46eaf32b
-1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-0ae0e8f0
-1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-526cefb3
-1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-1b6b15d4
-1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-bf2b5337
-1,0,0,0,0,1,1,1,1,1,1,0,0,1,0,1,1,1,1,0,http://lsq.aksw.org/res/q-63b97a34
-1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-dffb1658
-1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-76510e49
-0,0,1,0,0,0,1,1,1,1,1,1,0,1,1,1,0,1,0,0,http://lsq.aksw.org/res/q-da0d0e28
-0,1,1,0,0,0,1,1,0,1,0,1,1,0,0,1,0,1,1,1,http://lsq.aksw.org/res/q-0f5806b2
-1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-46eaf32b
-1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-0ae0e8f0
-1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,http://lsq.aksw.org/res/q-526cefb3
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-1b6b15d4
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-bf2b5337
+1,0,0,1,0,1,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,http://lsq.aksw.org/res/q-63b97a34
+1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-dffb1658
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-76510e49
+0,0,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0,http://lsq.aksw.org/res/q-da0d0e28
+0,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,0,1,1,1,http://lsq.aksw.org/res/q-0f5806b2
+1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-46eaf32b
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-0ae0e8f0
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,http://lsq.aksw.org/res/q-526cefb3
+0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,http://lsq.aksw.org/res/q-abb2fcad
+0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,http://lsq.aksw.org/res/q-04aad2e1
+1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,http://lsq.aksw.org/res/q-72b92a0d
+0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,1,1,0,0,http://lsq.aksw.org/res/q-e2fdfac3
+0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,http://lsq.aksw.org/res/q-db24e7f5
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,http://lsq.aksw.org/res/q-27d96fae
+0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,http://lsq.aksw.org/res/q-73a89812
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,http://lsq.aksw.org/res/q-87272eed
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,http://lsq.aksw.org/res/q-80397012
+0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,http://lsq.aksw.org/res/q-73c6b5af
