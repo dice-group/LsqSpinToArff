@@ -1,4 +1,4 @@
-package org.dice_research.LsqSpinToArff.tmp;
+package org.dice_research.LsqSpinToArff.Weka;
 
 import java.io.File;
 import java.io.IOException;

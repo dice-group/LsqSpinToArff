@@ -11,3 +11,10 @@ A usual workflow is listed in the following:
 - Use [Weka](https://www.cs.waikato.ac.nz/ml/weka/) for data analysis.
 
 Some documentation is available in the wiki at https://github.com/dice-group/LsqSpinToArff/wiki
+
+# Installation
+
+## LSQ
+
+- Download [LSQ sources at GitHub](https://github.com/dice-group/LSQ/releases/tag/v1.0.0)
+- Run `mvn clean install`

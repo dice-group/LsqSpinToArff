@@ -1,0 +1,46 @@
+@relation Dataset
+
+@attribute http://lsq.aksw.org/vocab#Limit numeric
+@attribute http://lsq.aksw.org/vocab#fn-langMatches numeric
+@attribute http://lsq.aksw.org/vocab#fn-or numeric
+@attribute positive numeric
+@attribute http://lsq.aksw.org/vocab#Offset numeric
+@attribute http://lsq.aksw.org/vocab#Union numeric
+@attribute http://lsq.aksw.org/vocab#TriplePattern numeric
+@attribute http://lsq.aksw.org/vocab#Functions numeric
+@attribute http://lsq.aksw.org/vocab#Distinct numeric
+@attribute http://lsq.aksw.org/vocab#Group numeric
+@attribute http://lsq.aksw.org/vocab#fn-eq numeric
+@attribute http://lsq.aksw.org/vocab#Optional numeric
+@attribute http://lsq.aksw.org/vocab#fn-not numeric
+@attribute http://lsq.aksw.org/vocab#fn-regex numeric
+@attribute http://lsq.aksw.org/vocab#fn-str numeric
+@attribute http://lsq.aksw.org/vocab#Filter numeric
+@attribute http://lsq.aksw.org/vocab#OrderBy numeric
+@attribute http://lsq.aksw.org/vocab#fn-lt numeric
+@attribute http://lsq.aksw.org/vocab#Select numeric
+@attribute http://lsq.aksw.org/vocab#fn-and numeric
+@attribute http://lsq.aksw.org/vocab#fn-lang numeric
+@attribute http://lsq.aksw.org/vocab#Query numeric
+
+@data
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,1
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,2
+1,0,0,1,0,1,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,3
+1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,4
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,5
+0,0,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0,6
+0,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,0,1,1,1,7
+1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,8
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,9
+1,0,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,1,10
+0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,11
+0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,12
+1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,13
+0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,1,1,0,0,14
+0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,15
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,16
+0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,17
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,18
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,19
+0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,20

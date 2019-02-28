@@ -8,3 +8,5 @@ positive.ttl
   -f negative.txt -o negative.ttl -m sparql -r q
 dataset.arff
   Generated using LsqSpinToArff
+dataset-numeric.arff
+  Manually replaced Strings (URIs)
