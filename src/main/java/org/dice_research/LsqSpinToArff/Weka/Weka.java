@@ -1,11 +1,11 @@
 package org.dice_research.LsqSpinToArff.Weka;
 
 import java.net.URL;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 import weka.classifiers.Evaluation;
+import weka.classifiers.evaluation.Prediction;
 import weka.classifiers.trees.J48;
-import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.filters.Filter;
@@ -18,82 +18,64 @@ import weka.filters.unsupervised.attribute.NumericToNominal;
  */
 public class Weka {
 
-	public static void main(String[] args) throws Exception {
+	public static final String CLASS_ATTRIBUTE_NAME = "positive";
 
-		URL url;
-		ArffLoader loader;
+	private Instances data;
+	private Evaluation evaluation;
 
-		// Problem: Strings (URIs) inside
-//		url = Weeeka.class.getClassLoader().getResource("dataset.arff");
-//		loader = new ArffLoader();
-//		loader.setURL(url.toString());
-//		Instances data = loader.getDataSet();
-//		System.out.println(data.size());
-
-		// Problem: J48Tree can not handle numeric data
-		url = Weka.class.getClassLoader().getResource("dataset-numeric.arff");
-		loader = new ArffLoader();
+	/**
+	 * Loads data at URL and converts numeric to nominal data. Sets data class name
+	 * (the attribute to classify).
+	 */
+	public Weka createData(String arffUrl) throws Exception {
+		URL url = Weka.class.getClassLoader().getResource("dataset-numeric.arff");
+		ArffLoader loader = new ArffLoader();
 		loader.setURL(url.toString());
-		Instances dataNumeric = loader.getDataSet();
-		System.out.println(dataNumeric.size());
+		data = loader.getDataSet();
 
+		// weka.classifiers.trees.J48 cannot handle numeric class
 		NumericToNominal filterNumNom = new NumericToNominal();
-		filterNumNom.setInputFormat(dataNumeric);
-		Instances dataNominal = Filter.useFilter(dataNumeric, filterNumNom);
+		filterNumNom.setInputFormat(data);
+		data = Filter.useFilter(data, filterNumNom);
 
-//		NumericToBinary filterNumBin = new NumericToBinary();
-//		filterNumBin.setInputFormat(dataNumeric);
-//		Instances dataBinary = Filter.useFilter(dataNumeric, filterNumBin);
+		data.setClass(data.attribute(CLASS_ATTRIBUTE_NAME));
 
-		J48 tree = new J48();
-		dataNominal.setClass(dataNominal.attribute("positive"));
-		tree.buildClassifier(dataNominal);
-
-		for (Instance instance : dataNominal) {
-			System.out.println(tree.classifyInstance(instance));
-		}
-
-		// Problem: NaN ?!
-		// How can an evaluation be done without the tree?!
-		// http://weka.sourceforge.net/doc.stable-3-8/index.html?weka/classifiers/evaluation/Evaluation.html
-		Evaluation evaluation = new Evaluation(dataNominal);
-		System.out.println(evaluation.fMeasure(0));
-		System.out.println(evaluation.fMeasure(1));
-		System.out.println(evaluation.precision(0));
-		System.out.println(evaluation.precision(1));
-		System.out.println(evaluation.recall(0));
-		System.out.println(evaluation.recall(1));
-		System.out.println(dataNominal.numClasses());
-
-		// No ...
-//		dataNumeric.setClass(dataNumeric.attribute("positive"));
-//		Evaluation evaluationNumeric = new Evaluation(dataNumeric);
-//		System.out.println(evaluationNumeric.fMeasure(0));
-//		System.out.println(evaluationNumeric.fMeasure(1));
-
-		// Yeah, already known ...
-		System.out.println();
-		double[] predictions = evaluation.evaluateModel(tree, dataNominal);
-		for (double d : predictions) {
-			System.out.println(d);
-		}
-
-		// That works
-		System.out.println();
-		System.out.println(evaluation.numTruePositives(0));
-		System.out.println(evaluation.numTrueNegatives(0));
-		System.out.println(evaluation.numFalsePositives(0));
-		System.out.println(evaluation.numFalseNegatives(0));
-		System.out.println(evaluation.numTruePositives(1));
-		System.out.println(evaluation.numTrueNegatives(1));
-		System.out.println(evaluation.numFalsePositives(1));
-		System.out.println(evaluation.numFalseNegatives(1));
-
-		// Aaaah! The model has to be evaluated in own method first.
-		System.out.println(evaluation.fMeasure(0));
-		System.out.println(evaluation.fMeasure(1));
-		
-		// Data scientist is happy.
+		return this;
 	}
 
+	/**
+	 * Gets fMeasure.
+	 */
+	public double getfMeasure() throws Exception {
+		evaluate();
+
+		// TODO: Set in a semantically beautiful way. And check.
+		return evaluation.fMeasure(1);
+	}
+
+	/**
+	 * Gets predictions for instances.
+	 */
+	public ArrayList<Prediction> getPredictions() throws Exception {
+		evaluate();
+		return evaluation.predictions();
+	}
+
+	/**
+	 * Gets evaluation object.
+	 */
+	public Evaluation getEvaluation() throws Exception {
+		evaluate();
+		return evaluation;
+	}
+
+	private void evaluate() throws Exception {
+		if (evaluation == null) {
+			J48 tree = new J48();
+			tree.buildClassifier(data);
+
+			evaluation = new Evaluation(data);
+			evaluation.evaluateModel(tree, data);
+		}
+	}
 }
