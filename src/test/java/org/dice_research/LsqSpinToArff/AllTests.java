@@ -5,7 +5,15 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ LsqSpinToArffTest.class, LsqTest.class, WekaTest.class })
-public class AllTests {
+@SuiteClasses({
 
+		LsqTest.class,
+
+		LsqSpinToArffTest.class,
+
+		WekaTest.class,
+
+		MainTest.class })
+
+public class AllTests {
 }
