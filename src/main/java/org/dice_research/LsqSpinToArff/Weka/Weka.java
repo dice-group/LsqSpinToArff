@@ -1,6 +1,7 @@
 package org.dice_research.LsqSpinToArff.Weka;
 
 import java.net.URL;
+import java.util.Arrays;
 
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
@@ -52,12 +53,47 @@ public class Weka {
 			System.out.println(tree.classifyInstance(instance));
 		}
 
-//		Evaluation.evaluateModel(tree, null);
-		Evaluation evaluation = new Evaluation(dataNominal);
-
 		// Problem: NaN ?!
+		// How can an evaluation be done without the tree?!
+		// http://weka.sourceforge.net/doc.stable-3-8/index.html?weka/classifiers/evaluation/Evaluation.html
+		Evaluation evaluation = new Evaluation(dataNominal);
 		System.out.println(evaluation.fMeasure(0));
 		System.out.println(evaluation.fMeasure(1));
+		System.out.println(evaluation.precision(0));
+		System.out.println(evaluation.precision(1));
+		System.out.println(evaluation.recall(0));
+		System.out.println(evaluation.recall(1));
+		System.out.println(dataNominal.numClasses());
+
+		// No ...
+//		dataNumeric.setClass(dataNumeric.attribute("positive"));
+//		Evaluation evaluationNumeric = new Evaluation(dataNumeric);
+//		System.out.println(evaluationNumeric.fMeasure(0));
+//		System.out.println(evaluationNumeric.fMeasure(1));
+
+		// Yeah, already known ...
+		System.out.println();
+		double[] predictions = evaluation.evaluateModel(tree, dataNominal);
+		for (double d : predictions) {
+			System.out.println(d);
+		}
+
+		// That works
+		System.out.println();
+		System.out.println(evaluation.numTruePositives(0));
+		System.out.println(evaluation.numTrueNegatives(0));
+		System.out.println(evaluation.numFalsePositives(0));
+		System.out.println(evaluation.numFalseNegatives(0));
+		System.out.println(evaluation.numTruePositives(1));
+		System.out.println(evaluation.numTrueNegatives(1));
+		System.out.println(evaluation.numFalsePositives(1));
+		System.out.println(evaluation.numFalseNegatives(1));
+
+		// Aaaah! The model has to be evaluated in own method first.
+		System.out.println(evaluation.fMeasure(0));
+		System.out.println(evaluation.fMeasure(1));
+		
+		// Data scientist is happy.
 	}
 
 }
