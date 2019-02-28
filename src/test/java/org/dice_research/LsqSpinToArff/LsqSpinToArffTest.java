@@ -4,33 +4,21 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
 
 public class LsqSpinToArffTest {
 
-	/**
-	 * Simple run
-	 */
 	@org.junit.Test
 	public void test() throws IOException {
 
 		File outFile = File.createTempFile("LsqSpinToArffTest", ".arff");
+		outFile.deleteOnExit();
 
-		try {
+		File inFilePositive = new File("src/main/resources/positive.ttl");
+		File inFileNegative = new File("src/main/resources/negative.ttl");
 
-			List<String> args = new LinkedList<String>();
-			args.add(new File("src/main/resources/positive.ttl").getAbsolutePath());
-			args.add(new File("src/main/resources/negative.ttl").getAbsolutePath());
-			args.add(outFile.getAbsolutePath());
+		new LsqSpinToArff().run(inFilePositive, inFileNegative, outFile);
 
-			Main.main(args.toArray(new String[0]));
-
-			assertTrue(outFile.exists());
-			assertTrue(outFile.length() > 0);
-
-		} finally {
-			outFile.delete();
-		}
+		assertTrue(outFile.exists());
+		assertTrue(outFile.length() > 0);
 	}
 }
