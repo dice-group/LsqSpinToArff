@@ -1,8 +1,10 @@
 package org.dice_research.LsqSpinToArff.Weka;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 
+import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.evaluation.Prediction;
 import weka.classifiers.trees.J48;
@@ -19,8 +21,10 @@ import weka.filters.unsupervised.attribute.NumericToNominal;
 public class Weka {
 
 	public static final String CLASS_ATTRIBUTE_NAME = "positive";
+	public static final int CLASS_INDEX_POSITIVE = 1;
 
 	private Instances data;
+	private J48 j48tree;
 	private Evaluation evaluation;
 
 	/**
@@ -48,9 +52,7 @@ public class Weka {
 	 */
 	public double getfMeasure() throws Exception {
 		evaluate();
-
-		// TODO: Set in a semantically beautiful way. And check.
-		return evaluation.fMeasure(1);
+		return evaluation.fMeasure(CLASS_INDEX_POSITIVE);
 	}
 
 	/**
@@ -69,13 +71,39 @@ public class Weka {
 		return evaluation;
 	}
 
-	private void evaluate() throws Exception {
-		if (evaluation == null) {
-			J48 tree = new J48();
-			tree.buildClassifier(data);
+	/**
+	 * Gets the classifier / J48 tree.
+	 */
+	public Classifier getClassifier() throws Exception {
+		evaluate();
+		return j48tree;
+	}
 
+	/**
+	 * Writes model to file.
+	 */
+	public void writeModel(File file) throws Exception {
+		evaluate();
+		weka.core.SerializationHelper.write(file.getPath(), j48tree);
+	}
+
+	/**
+	 * Reads model from file.
+	 */
+	public void readModel(File file) throws Exception {
+		j48tree = (J48) weka.core.SerializationHelper.read(file.getPath());
+		evaluate();
+	}
+
+	private void evaluate() throws Exception {
+		if (j48tree == null) {
+			j48tree = new J48();
+			j48tree.buildClassifier(data);
+		}
+
+		if (evaluation == null) {
 			evaluation = new Evaluation(data);
-			evaluation.evaluateModel(tree, data);
+			evaluation.evaluateModel(j48tree, data);
 		}
 	}
 }

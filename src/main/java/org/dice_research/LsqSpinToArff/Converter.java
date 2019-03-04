@@ -65,6 +65,9 @@ public abstract class Converter {
 		Instances instances = new Instances(ARFF_RELATION_NAME, attributes, queries.size());
 
 		// Set attribute to predict
+		if (featuresToAttributes.get(ARFF_ATTRIBUTE_POSITIVE_SET) == null) {
+			throw new RuntimeException("Please check, if each query is given in one line.");
+		}
 		instances.setClass(featuresToAttributes.get(ARFF_ATTRIBUTE_POSITIVE_SET));
 
 		// Add data

@@ -6,6 +6,10 @@
 	<artifactId>LsqSpinToArff</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>LSQ SPIN to ARFF</name>
+	<properties>
+		<maven.compiler.source>1.11</maven.compiler.source>
+		<maven.compiler.target>1.11</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 
