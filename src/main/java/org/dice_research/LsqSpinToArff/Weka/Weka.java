@@ -1,7 +1,6 @@
 package org.dice_research.LsqSpinToArff.Weka;
 
 import java.io.File;
-import java.net.URL;
 import java.util.ArrayList;
 
 import weka.classifiers.Classifier;
@@ -31,10 +30,9 @@ public class Weka {
 	 * Loads data at URL and converts numeric to nominal data. Sets data class name
 	 * (the attribute to classify).
 	 */
-	public Weka createData(String arffUrl) throws Exception {
-		URL url = Weka.class.getClassLoader().getResource(arffUrl);
+	public Weka createData(File arffFile) throws Exception {
 		ArffLoader loader = new ArffLoader();
-		loader.setURL(url.toString());
+		loader.setFile(arffFile);
 		data = loader.getDataSet();
 
 		// weka.classifiers.trees.J48 cannot handle numeric class

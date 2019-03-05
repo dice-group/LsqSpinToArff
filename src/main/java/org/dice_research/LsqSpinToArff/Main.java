@@ -99,7 +99,7 @@ public class Main {
 		// Weka: ARFF to fMeasure
 
 		long wekaTime = System.currentTimeMillis();
-		Weka weka = new Weka().createData(arffFile.toURI().toURL().toString());
+		Weka weka = new Weka().createData(arffFile);
 		double fmeasure = weka.getfMeasure();
 		wekaTime = System.currentTimeMillis() - wekaTime;
 
