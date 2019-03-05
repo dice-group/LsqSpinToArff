@@ -32,7 +32,7 @@ public class Weka {
 	 * (the attribute to classify).
 	 */
 	public Weka createData(String arffUrl) throws Exception {
-		URL url = Weka.class.getClassLoader().getResource("dataset-numeric.arff");
+		URL url = Weka.class.getClassLoader().getResource(arffUrl);
 		ArffLoader loader = new ArffLoader();
 		loader.setURL(url.toString());
 		data = loader.getDataSet();
