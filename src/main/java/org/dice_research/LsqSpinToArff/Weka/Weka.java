@@ -11,6 +11,7 @@ import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.NumericToNominal;
+import weka.filters.unsupervised.attribute.StringToNominal;
 
 /**
  * https://www.cs.waikato.ac.nz/ml/weka/documentation.html
@@ -39,6 +40,11 @@ public class Weka {
 		NumericToNominal filterNumNom = new NumericToNominal();
 		filterNumNom.setInputFormat(data);
 		data = Filter.useFilter(data, filterNumNom);
+
+		// weka.classifiers.trees.J48 cannot handle string attributes
+		StringToNominal filterStrNoml = new StringToNominal();
+		filterStrNoml.setInputFormat(data);
+		data = Filter.useFilter(data, filterStrNoml);
 
 		data.setClass(data.attribute(CLASS_ATTRIBUTE_NAME));
 

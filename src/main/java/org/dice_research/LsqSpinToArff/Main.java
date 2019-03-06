@@ -2,6 +2,8 @@ package org.dice_research.LsqSpinToArff;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -93,8 +95,15 @@ public class Main {
 		long arffTime = System.currentTimeMillis();
 		File arffFile = new File(outputDirectoryFile, prefix + "weka.arff");
 		System.out.println("Executing: " + lsqPosFile + " " + lsqNegFile + " " + arffFile);
-		new LsqSpinToArff().run(lsqPosFile, lsqNegFile, arffFile);
+		LsqSpinToArff lsqSpinToArff = new LsqSpinToArff().run(lsqPosFile, lsqNegFile, arffFile);
 		arffTime = System.currentTimeMillis() - arffTime;
+
+		// Get used LSQ/SPIN features
+
+		List<String> featureUris = new ArrayList<>(lsqSpinToArff.getAllFeatures().size());
+		for (String featureUri : lsqSpinToArff.getAllFeatures()) {
+			featureUris.add(featureUri.replace("http://lsq.aksw.org/vocab#", "lsqv:"));
+		}
 
 		// Weka: ARFF to fMeasure
 
@@ -113,6 +122,8 @@ public class Main {
 		csvPrinter.printRecord(new String[] { "timeLsq", "" + lsqTime });
 		csvPrinter.printRecord(new String[] { "timeArff", "" + arffTime });
 		csvPrinter.printRecord(new String[] { "timeWeka", "" + wekaTime });
+		csvPrinter.printRecord(new String[] { "features", "" + featureUris });
+		csvPrinter.printRecord(new String[] { "prefix", "" + prefix });
 		csvPrinter.flush();
 		csvPrinter.close();
 
