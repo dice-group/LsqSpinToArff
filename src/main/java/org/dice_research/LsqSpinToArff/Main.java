@@ -13,6 +13,9 @@ import org.dice_research.LsqSpinToArff.Weka.Weka;
 
 /**
  * Execute sequence of transformation steps.
+ * 
+ * Note: The whitelist of features can be specified in
+ * {@link LsqSpinToArff#FEATURES_WHITELIST}
  *
  * @author Adrian Wilke
  */

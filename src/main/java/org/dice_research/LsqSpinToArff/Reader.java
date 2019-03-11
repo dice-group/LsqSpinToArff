@@ -2,6 +2,7 @@ package org.dice_research.LsqSpinToArff;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.jena.query.QueryExecution;
@@ -37,7 +38,7 @@ public abstract class Reader {
 	 * 
 	 * @return Query-objects
 	 */
-	public static Collection<Query> extract(String ttlFileUrl) {
+	public static Collection<Query> extract(String ttlFileUrl, List<String> featureWhitelist) {
 
 		// Import file into model
 		Model model = ModelFactory.createDefaultModel();
@@ -53,6 +54,12 @@ public abstract class Reader {
 		while (resultSet.hasNext()) {
 			QuerySolution querySolution = resultSet.next();
 
+			// Only features in whilelist
+			String feature = querySolution.get("f").toString();
+			if (!featureWhitelist.contains(feature)) {
+				continue;
+			}
+
 			// Get query in map
 			String queryUri = querySolution.get("q").toString();
 			if (queries.containsKey(queryUri)) {
@@ -63,7 +70,7 @@ public abstract class Reader {
 			}
 
 			query.text = querySolution.get("t").toString();
-			query.features.add(querySolution.get("f").toString());
+			query.features.add(feature);
 		}
 
 		return queries.values();
