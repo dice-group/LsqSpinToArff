@@ -21,7 +21,7 @@ public class LsqSpinToArffTest {
 		File inFilePositive = new File("src/main/resources/positive.ttl");
 		File inFileNegative = new File("src/main/resources/negative.ttl");
 
-		new LsqSpinToArff().run(inFilePositive, inFileNegative, outFile);
+		new LsqSpinToArff().run(inFilePositive, inFileNegative, outFile, null);
 
 		assertTrue(outFile.exists());
 		assertTrue(outFile.length() > 0);

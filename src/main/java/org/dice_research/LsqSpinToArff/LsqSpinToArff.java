@@ -16,19 +16,8 @@ public class LsqSpinToArff {
 	private Collection<Query> queriesNegative;
 	private List<String> allFeatures;
 
-	private static final String LSQV_NAMESPACE = "http://lsq.aksw.org/vocab#";
-	public static final String[] FEATURES_WHITELIST = new String[] { "Ask", "Construct", "Describe", "Filter", "Group",
-			"GroupBy", "Limit", "Offset", "OrderBy", "Select", "TriplePath", "TriplePattern", "Union", "fnbound",
-			"fnisLiteral", "fnregex" };
-	private static final List<String> featureWhitelist;
-	static {
-		featureWhitelist = new LinkedList<>();
-		for (String feature : FEATURES_WHITELIST) {
-			featureWhitelist.add(LSQV_NAMESPACE + feature);
-		}
-	}
-
-	public LsqSpinToArff run(File inFilePositive, File inFileNegative, File outFile) throws IOException {
+	public LsqSpinToArff run(File inFilePositive, File inFileNegative, File outFile, List<String> featureWhitelist)
+			throws IOException {
 
 		// Extract data
 		queriesPositive = Reader.extract(inFilePositive.getAbsolutePath(), featureWhitelist);

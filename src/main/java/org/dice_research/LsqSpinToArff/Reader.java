@@ -34,7 +34,9 @@ public abstract class Reader {
 	/**
 	 * Extracts SPARQL query information (URI, query text, features).
 	 * 
-	 * @param ttlFileUrl URL of a turtle file
+	 * @param ttlFileUrl       URL of a turtle file
+	 * 
+	 * @param featureWhitelist A whitelist of features to add or null.
 	 * 
 	 * @return Query-objects
 	 */
@@ -56,7 +58,7 @@ public abstract class Reader {
 
 			// Only features in whilelist
 			String feature = querySolution.get("f").toString();
-			if (!featureWhitelist.contains(feature)) {
+			if (featureWhitelist != null && !featureWhitelist.contains(feature)) {
 				continue;
 			}
 

@@ -3,6 +3,7 @@ package org.dice_research.LsqSpinToArff;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
@@ -15,11 +16,24 @@ import org.dice_research.LsqSpinToArff.Weka.Weka;
  * Execute sequence of transformation steps.
  * 
  * Note: The whitelist of features can be specified in
- * {@link LsqSpinToArff#FEATURES_WHITELIST}
+ * {@link #FEATURES_WHITELIST}. It can be set to null to use all features;
  *
  * @author Adrian Wilke
  */
 public class Main {
+
+	// Whitelist of features to integrate
+	private static final String LSQV_NAMESPACE = "http://lsq.aksw.org/vocab#";
+	public static final String[] FEATURES_WHITELIST = new String[] { "Ask", "Construct", "Describe", "Filter", "Group",
+			"GroupBy", "Limit", "Offset", "OrderBy", "Select", "TriplePath", "TriplePattern", "Union", "fnbound",
+			"fnisLiteral", "fnregex" };
+	private static final List<String> featureWhitelist;
+	static {
+		featureWhitelist = new LinkedList<>();
+		for (String feature : FEATURES_WHITELIST) {
+			featureWhitelist.add(LSQV_NAMESPACE + feature);
+		}
+	}
 
 	/**
 	 * @param args [0] File with positive queries
@@ -98,7 +112,7 @@ public class Main {
 		long arffTime = System.currentTimeMillis();
 		File arffFile = new File(outputDirectoryFile, prefix + "weka.arff");
 		System.out.println("Executing: " + lsqPosFile + " " + lsqNegFile + " " + arffFile);
-		LsqSpinToArff lsqSpinToArff = new LsqSpinToArff().run(lsqPosFile, lsqNegFile, arffFile);
+		LsqSpinToArff lsqSpinToArff = new LsqSpinToArff().run(lsqPosFile, lsqNegFile, arffFile, featureWhitelist);
 		arffTime = System.currentTimeMillis() - arffTime;
 
 		// Get used LSQ/SPIN features
