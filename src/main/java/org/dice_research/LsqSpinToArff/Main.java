@@ -47,8 +47,6 @@ public class Main {
 		} else {
 			featureWhitelist = null;
 		}
-		System.out.println(featureWhitelist);
-		System.out.println("X");
 	}
 
 	/**
