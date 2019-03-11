@@ -22,6 +22,16 @@ import org.dice_research.LsqSpinToArff.Weka.Weka;
  */
 public class Main {
 
+	// Configuration
+	private static final boolean USE_FEATURES_WHITELIST = false;
+	private static final boolean RUN_LSQ = true;
+
+	private static final String POSTFIX_LSQ_POS = "weka.pos.lsq";
+	private static final String POSTFIX_LSQ_NEG = "weka.neg.lsq";
+	private static final String POSTFIX_ARFF = "weka.arff";
+	private static final String POSTFIX_WEKA_MODEL = "weka.model";
+	private static final String POSTFIX_META_CSV = "weka.csv";
+
 	// Whitelist of features to integrate
 	private static final String LSQV_NAMESPACE = "http://lsq.aksw.org/vocab#";
 	public static final String[] FEATURES_WHITELIST = new String[] { "Ask", "Construct", "Describe", "Filter", "Group",
@@ -29,10 +39,16 @@ public class Main {
 			"fnisLiteral", "fnregex" };
 	private static final List<String> featureWhitelist;
 	static {
-		featureWhitelist = new LinkedList<>();
-		for (String feature : FEATURES_WHITELIST) {
-			featureWhitelist.add(LSQV_NAMESPACE + feature);
+		if (USE_FEATURES_WHITELIST) {
+			featureWhitelist = new LinkedList<>();
+			for (String feature : FEATURES_WHITELIST) {
+				featureWhitelist.add(LSQV_NAMESPACE + feature);
+			}
+		} else {
+			featureWhitelist = null;
 		}
+		System.out.println(featureWhitelist);
+		System.out.println("X");
 	}
 
 	/**
@@ -96,21 +112,23 @@ public class Main {
 				new String[] { new File(inputQueriesPosFile).getName(), new File(inputQueriesNegFile).getName() });
 
 		// SPARQL queries to LSQ/SPIN
+		long lsqTime = 0;
+		File lsqPosFile = new File(outputDirectoryFile, prefix + POSTFIX_LSQ_POS);
+		File lsqNegFile = new File(outputDirectoryFile, prefix + POSTFIX_LSQ_NEG);
+		if (RUN_LSQ) {
+			lsqTime = System.currentTimeMillis();
+			System.out.println("Executing: " + lsqJarFile + " " + inputQueriesPosFile + " " + lsqPosFile.getPath());
+			new LsqRunner().setJarFile(lsqJarFile).run(inputQueriesPosFile, lsqPosFile.getPath());
 
-		long lsqTime = System.currentTimeMillis();
-		File lsqPosFile = new File(outputDirectoryFile, prefix + "weka.pos.lsq");
-		System.out.println("Executing: " + lsqJarFile + " " + inputQueriesPosFile + " " + lsqPosFile.getPath());
-		new LsqRunner().setJarFile(lsqJarFile).run(inputQueriesPosFile, lsqPosFile.getPath());
-
-		File lsqNegFile = new File(outputDirectoryFile, prefix + "weka.neg.lsq");
-		System.out.println("Executing: " + lsqJarFile + " " + inputQueriesNegFile + " " + lsqNegFile.getPath());
-		new LsqRunner().setJarFile(lsqJarFile).run(inputQueriesNegFile, lsqNegFile.getPath());
-		lsqTime = System.currentTimeMillis() - lsqTime;
+			System.out.println("Executing: " + lsqJarFile + " " + inputQueriesNegFile + " " + lsqNegFile.getPath());
+			new LsqRunner().setJarFile(lsqJarFile).run(inputQueriesNegFile, lsqNegFile.getPath());
+			lsqTime = System.currentTimeMillis() - lsqTime;
+		}
 
 		// LSQ/SPIN to ARFF
 
 		long arffTime = System.currentTimeMillis();
-		File arffFile = new File(outputDirectoryFile, prefix + "weka.arff");
+		File arffFile = new File(outputDirectoryFile, prefix + POSTFIX_ARFF);
 		System.out.println("Executing: " + lsqPosFile + " " + lsqNegFile + " " + arffFile);
 		LsqSpinToArff lsqSpinToArff = new LsqSpinToArff().run(lsqPosFile, lsqNegFile, arffFile, featureWhitelist);
 		arffTime = System.currentTimeMillis() - arffTime;
@@ -131,9 +149,9 @@ public class Main {
 
 		// Write
 
-		weka.writeModel(new File(outputDirectoryFile, prefix + "weka.model"));
+		weka.writeModel(new File(outputDirectoryFile, prefix + POSTFIX_WEKA_MODEL));
 
-		CSVPrinter csvPrinter = new CSVPrinter(new FileWriter(new File(outputDirectoryFile, prefix + "weka.csv")),
+		CSVPrinter csvPrinter = new CSVPrinter(new FileWriter(new File(outputDirectoryFile, prefix + POSTFIX_META_CSV)),
 				CSVFormat.DEFAULT);
 		csvPrinter.printRecord(new String[] { "fMeasure", "" + fmeasure });
 		csvPrinter.printRecord(new String[] { "timeLsq", "" + lsqTime });
